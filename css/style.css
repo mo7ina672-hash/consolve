@@ -599,7 +599,9 @@ p {
     .about img {
         width: 100%;
     }
-
+    .services-grid {
+    grid-template-columns: repeat(2, 1fr); 
+}
 .footer .container .footer-container .footer-right .btn-primary{
    padding: 1.2rem 6rem;;
 }
