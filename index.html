@@ -1,24 +1,88 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Consolve | كونسـولڤ للاستشارات الإدارية</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Consolve | كونسولڤ للاستشارات الإدارية - حلول أعمال متكاملة</title>
+    <meta name="description" content="كونسولڤ شركة استشارات إدارية سعودية متخصصة في تطوير الكيانات وبناء أنظمة إدارية فعالة. نقدم خدمات التخطيط الاستراتيجي، تحسين العمليات، دراسات الجدوى، والاستشارات المتكاملة.">
+    <meta name="keywords" content="استشارات إدارية، كونسولڤ، Consolve، تطوير أعمال، تحسين العمليات، دراسات جدوى، استشارات سعودية، تخطيط استراتيجي، الرياض">
+    <meta name="author" content="Consolve">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://consolve.sa/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://consolve.sa/">
+    <meta property="og:title" content="Consolve | كونسولڤ للاستشارات الإدارية">
+    <meta property="og:description" content="شركة استشارات إدارية سعودية متخصصة في تطوير الكيانات وبناء أنظمة إدارية فعالة تدعم النمو والاستقرار.">
+    <meta property="og:image" content="https://consolve.sa/assets/images/logo.png">
+    <meta property="og:locale" content="ar_SA">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://consolve.sa/">
+    <meta name="twitter:title" content="Consolve | كونسولڤ للاستشارات الإدارية">
+    <meta name="twitter:description" content="شركة استشارات إدارية سعودية متخصصة في تطوير الكيانات وبناء أنظمة إدارية فعالة.">
+    <meta name="twitter:image" content="https://consolve.sa/assets/images/logo.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+    
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Consolve - كونسولڤ للاستشارات الإدارية",
+        "description": "شركة استشارات إدارية سعودية متخصصة في تطوير الكيانات وبناء أنظمة إدارية فعالة",
+        "url": "https://consolve.sa",
+        "logo": "https://consolve.sa/assets/images/logo.png",
+        "image": "https://consolve.sa/assets/images/logo.png",
+        "telephone": "",
+        "email": "Info@consolve.sa",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "طريق أبي بكر الصديق، حي التعاون",
+            "addressLocality": "الرياض",
+            "addressCountry": "SA"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "24.7136",
+            "longitude": "46.6753"
+        },
+        "openingHours": "Su-Th 09:00-17:00",
+        "sameAs": [
+            "https://www.linkedin.com/company/consove/",
+            "https://x.com/Consolve110616",
+            "https://www.instagram.com/cons.olve"
+        ],
+        "priceRange": "$$"
+    }
+    </script>
 
-        <link rel="preload" href="fonts/ArbFONTS-ArbFONTS-Janna-LT-Bold.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="fonts/ArbFONTS-ArbFONTS-Janna-LT-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
+    <link rel="preload" href="assets/fonts/ArbFONTS-ArbFONTS-Janna-LT-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/fonts/ArbFONTS-ArbFONTS-Janna-LT-Regular.woff2" as="font" type="font/woff2" crossorigin>
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 <header class="main-header">
     <div class="container header-container">
         <div class="logo">
-            <img src="images/logo.png" alt="Consolve Logo">
+            <img src="assets/images/logo.png" alt="Consolve Logo">
         </div>
 
         <button type="button" class="menu-toggle" id="menu-btn" title="فتح القائمة">
@@ -100,7 +164,7 @@
         <div class="container"> 
             <div class=" about-container">
                 <div class="about-image">
-                    <img src="images/about.png" alt="About Consolve">
+                    <img src="assets/images/about.png" alt="About Consolve">
                 </div>
                 <div class="about-text">
                     <h2 class="section-title">من نحن</h2>
@@ -364,7 +428,7 @@
                     <p> كونسولڤ للاستشارات الإدارية <br><span>جميع الحقوق محفوظة &copy; 2026</span></p>
                 </div>
                   <div class="footer-left">
-                    <img src="images/logo.png" alt="Consolve Logo">
+                    <img src="assets/images/logo.png" alt="Consolve Logo">
                     <div class="social-links">
                         <a href="https://www.linkedin.com/company/consove/" target="_blank" rel="noopener" ><i class="fa-brands fa-linkedin-in"></i></a>
                         <a href="https://x.com/Consolve110616" target="_blank" rel="noopener" ><i class="fa-brands fa-x-twitter"></i></a>
@@ -418,16 +482,7 @@
             
                 });
             });
-
-
-
-
-
-        // document.addEventListener('contextmenu', event => event.preventDefault());
-
-        // document.onkeydown = function(e) {
-        //     if(e.keyCode == 123) return false ;
-        // }
     </script>
+    <script src="assets/js/email.js"></script>
 </body>
 </html>
